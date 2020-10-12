@@ -1,21 +1,6 @@
 def find_min_in_nested_arrays(src)
-  outer_results = []
-  row_index = 0 
   
-  while row_index < src.count do 
-    element_index = 0 
-    lowest_nums = 1000     
-    while element_index < src[row_index].count do 
-      if src[row_index][element_index] < lowest_nums
-        lowest_nums = src[row_index][element_index]
-      end 
-      element_index += 1 
-    end 
-    outer_results.push(lowest_nums)
-    row_index += 1 
-  end 
-  outer_results
-end 
+end
 
 
 # def find_max_value(array)
